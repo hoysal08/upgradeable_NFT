@@ -4,6 +4,7 @@ This project demonstrates a method where contracts can be upgraded add newer fun
 
 It uses a proxy contract which delegates call to a implementation contract.The implementation contract always uses the storage of the proxy contract to update or fetch data related to the later interactions.These implementation contracts can later be changed by introducting later versions.
 
+The repository also contains a simple UI to interact with these deployments using metamask
 
 
 Try running some of the following tasks:
